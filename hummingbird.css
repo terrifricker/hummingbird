@@ -10,10 +10,16 @@ body {
     height: 700px;
     margin: 0;
     padding: 5px 15px;
+    position: relative;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #title {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+footer {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
 }
