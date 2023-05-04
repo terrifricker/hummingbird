@@ -44,7 +44,7 @@ nav {
     left: 2rem;
 }
 footer img {
-    width: 200px;
+    width: 50vw;
     position: absolute;
     bottom: 0.5rem;
     right: 0.5rem;
@@ -69,15 +69,18 @@ footer img {
     nav {
         margin: 3rem 0;
     }
-    footer img {
-        width: 500px;
-    }
 }
-/* media query for desktops */
-@media screen and (min-width: 1050px) {
+/* media query for small desktops */
+@media screen and (min-width: 820px) {
     footer img {
-        width: 800px;
+        width: 25vw;
         bottom: 5rem;
         right: 5rem;
+    }
+}
+/* media query for larger desktops */
+@media screen and (min-width: 1280px) {
+    footer img {
+        width: 35vw;
     }
 }
