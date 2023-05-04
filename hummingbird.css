@@ -36,7 +36,15 @@ p {
 nav {
     margin: 1rem 0;
 }
-footer {
+#back {
+    width: calc(100vw - 4rem);
+    font-size: 1.5rem;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    position: absolute;
+    bottom: 1rem;
+}
+footer img {
     position: absolute;
     bottom: 0.5rem;
     right: 0.5rem;
