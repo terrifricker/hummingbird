@@ -49,9 +49,6 @@ nav {
 }
 footer img {
     width: 50vw;
-    position: absolute;
-    bottom: 0.5rem;
-    right: 0.5rem;
 }
 /* media query for tablets */
 @media screen and (min-width: 600px) {
