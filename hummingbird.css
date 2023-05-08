@@ -50,8 +50,7 @@ footer {
     font-size: 1.5rem;
     font-family: 'Kaushan Script', cursive;
     position: absolute;
-    bottom: 1rem;
-    left: 2rem;
+    bottom: 0;
 }
 footer img {
     width: 50vw;
